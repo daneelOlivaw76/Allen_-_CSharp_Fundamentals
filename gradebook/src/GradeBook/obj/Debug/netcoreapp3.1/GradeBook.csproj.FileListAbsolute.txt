@@ -1,0 +1,13 @@
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_-_CSharp_Fundamentals\gradebook\src\Gradebook\bin\Debug\netcoreapp3.1\GradeBook.exe
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_-_CSharp_Fundamentals\gradebook\src\Gradebook\bin\Debug\netcoreapp3.1\GradeBook.deps.json
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_-_CSharp_Fundamentals\gradebook\src\Gradebook\bin\Debug\netcoreapp3.1\GradeBook.runtimeconfig.json
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_-_CSharp_Fundamentals\gradebook\src\Gradebook\bin\Debug\netcoreapp3.1\GradeBook.runtimeconfig.dev.json
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_-_CSharp_Fundamentals\gradebook\src\Gradebook\bin\Debug\netcoreapp3.1\GradeBook.dll
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_-_CSharp_Fundamentals\gradebook\src\Gradebook\bin\Debug\netcoreapp3.1\GradeBook.pdb
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_-_CSharp_Fundamentals\gradebook\src\Gradebook\obj\Debug\netcoreapp3.1\GradeBook.csprojAssemblyReference.cache
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_-_CSharp_Fundamentals\gradebook\src\Gradebook\obj\Debug\netcoreapp3.1\GradeBook.csproj.CoreCompileInputs.cache
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_-_CSharp_Fundamentals\gradebook\src\Gradebook\obj\Debug\netcoreapp3.1\GradeBook.AssemblyInfoInputs.cache
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_-_CSharp_Fundamentals\gradebook\src\Gradebook\obj\Debug\netcoreapp3.1\GradeBook.AssemblyInfo.cs
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_-_CSharp_Fundamentals\gradebook\src\Gradebook\obj\Debug\netcoreapp3.1\GradeBook.dll
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_-_CSharp_Fundamentals\gradebook\src\Gradebook\obj\Debug\netcoreapp3.1\GradeBook.pdb
+C:\Users\Rui Reis\program\learning\dotnet\pluralsight\Allen_-_CSharp_Fundamentals\gradebook\src\Gradebook\obj\Debug\netcoreapp3.1\GradeBook.genruntimeconfig.cache
