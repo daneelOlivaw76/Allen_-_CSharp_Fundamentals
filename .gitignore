@@ -1,5 +1,1 @@
-/*/.vscode
-**/gradebook/src/GradeBook/bin/Debug
-**/gradebook/src/GradeBook/obj
-**/test/GradeBook.Tests/Bin/Debug
-**/test/Gradebook.Tests/obj
+gradebook/*/.vscode
