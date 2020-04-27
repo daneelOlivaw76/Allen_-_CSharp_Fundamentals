@@ -3435,8 +3435,8 @@
     },
     "GradeBook/1.0.0": {
       "type": "project",
-      "path": "../../src/Gradebook/GradeBook.csproj",
-      "msbuildProject": "../../src/Gradebook/GradeBook.csproj"
+      "path": "../../src/GradeBook/GradeBook.csproj",
+      "msbuildProject": "../../src/GradeBook/GradeBook.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3477,8 +3477,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Rui Reis\\program\\learning\\dotnet\\pluralsight\\Allen_-_CSharp_Fundamentals\\gradebook\\src\\Gradebook\\GradeBook.csproj": {
-              "projectPath": "C:\\Users\\Rui Reis\\program\\learning\\dotnet\\pluralsight\\Allen_-_CSharp_Fundamentals\\gradebook\\src\\Gradebook\\GradeBook.csproj"
+            "C:\\Users\\Rui Reis\\program\\learning\\dotnet\\pluralsight\\Allen_-_CSharp_Fundamentals\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
+              "projectPath": "C:\\Users\\Rui Reis\\program\\learning\\dotnet\\pluralsight\\Allen_-_CSharp_Fundamentals\\gradebook\\src\\GradeBook\\GradeBook.csproj"
             }
           }
         }

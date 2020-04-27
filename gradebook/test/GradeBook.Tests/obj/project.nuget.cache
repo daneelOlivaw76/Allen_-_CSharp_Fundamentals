@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AFWGLLNz/0caLG8F9qID8UwJ1WKOZx42DoL3UTgAvk/zC/9Jv8xVfuhO2aW8nZMQFFEUhY9I6ewROoh1zsdiog==",
+  "dgSpecHash": "WMtR3RPAnV+aW0joFCRpgZ2e4eh37A14g8Gzo1s3cZNK8/79T/kDI4l1INh/GOx6/VzIAa+7kPZyD4MHg7wm8A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Rui Reis\\program\\learning\\dotnet\\pluralsight\\Allen_-_CSharp_Fundamentals\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
   "expectedPackageFiles": [
