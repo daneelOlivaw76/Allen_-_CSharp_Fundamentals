@@ -7,7 +7,21 @@ namespace GradeBook.Tests
     public class TypeTests
     {
         [Fact]
-        public void Test1()
+        public void StringsBehaveLikeValueTypes()
+        {
+            string name = "Scott";
+            MakeUpperCase(ref name);
+
+            Assert.Equal("SCOTT", name);
+        }
+
+        private void MakeUpperCase(ref string str)
+        {
+            str = str.ToUpper();
+        }
+
+        [Fact]
+        public void ValueTypesAlsoPassByValue()
         {
             var x = GetInt();
             SetInt(out x);

@@ -1,6 +1,5 @@
 using System;
 using Xunit;
-using GradeBook;
 
 namespace GradeBook.Tests
 {
@@ -14,6 +13,8 @@ namespace GradeBook.Tests
             book.AddGrade(89.1);
             book.AddGrade(90.5);
             book.AddGrade(77.3);
+            book.AddGrade(-7);
+            book.AddGrade(105);
 
             // act
             var result = book.GetStatistics();
@@ -23,6 +24,7 @@ namespace GradeBook.Tests
             Assert.Equal(90.5, result.High, 1);
             Assert.Equal(77.3, result.Low, 1);
             Assert.Equal("Test Book", book.Name);
+            Assert.Equal('B', result.Letter);
         }
     }
 }
