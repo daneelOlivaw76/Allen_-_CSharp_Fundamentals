@@ -3,10 +3,13 @@ using System;
 
 namespace GradeBook
 {
+    public delegate void GradeAddedDelegate(object sender, EventArgs args);
     public class Book
     {
         private List<double> grades { get; set; }
         public string Name { get; set; }
+
+        public const string CATEGORY = "Science";
 
         public Book()
         {
@@ -19,7 +22,7 @@ namespace GradeBook
             this.Name = name;
         }
 
-        public void AddLetterGrade(char letter)
+        public void AddGrade(char letter)
         {
             switch (letter)
             {
@@ -47,12 +50,18 @@ namespace GradeBook
             if (grade <= 100 && grade >= 0)
             {
                 this.grades.Add(grade);
+                if (GradeAdded != null)
+                {
+                    GradeAdded(this, new EventArgs());
+                }
             }
             else
             {
                 throw new ArgumentException($"Invalid {nameof(grade)}! Only values between 0.0 and 100.0 are accepted.");
             }
         }
+
+        public event GradeAddedDelegate GradeAdded;
 
         public Statistics GetStatistics()
         {
