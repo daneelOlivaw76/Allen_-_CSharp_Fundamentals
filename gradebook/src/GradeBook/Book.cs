@@ -50,7 +50,7 @@ namespace GradeBook
             }
             else
             {
-                Console.WriteLine("Invalid Value");
+                throw new ArgumentException($"Invalid {nameof(grade)}! Only values between 0.0 and 100.0 are accepted.");
             }
         }
 
