@@ -65,15 +65,20 @@ namespace GradeBook
         {
             var result = new Statistics();
             string line;
+            string filename = $"{Name}.txt";
 
-            using (var file = new StreamReader($"{Name}.txt"))
+            using (var file = File.OpenText(filename))
             {
                 while ((line = file.ReadLine()) != null)
                 {
                     double grade = double.Parse(line);
                     result.Add(grade);
                 }
+
+                file.Dispose();
+                File.Delete(filename);
             }
+
 
             return result;
         }
@@ -88,29 +93,6 @@ namespace GradeBook
             this.grades = new List<double>();
             //this.Name = name;
         }
-
-        // public void AddGrade(char letter)
-        // {
-        //     switch (letter)
-        //     {
-        //         case 'A':
-        //             AddGrade(90);
-        //             break;
-        //         case 'B':
-        //             AddGrade(80);
-        //             break;
-        //         case 'C':
-        //             AddGrade(70);
-        //             break;
-        //         case 'D':
-        //             AddGrade(60);
-        //             break;
-        //         case 'F':
-        //         default:
-        //             AddGrade(0);
-        //             break;
-        //     }
-        // }
 
         public override void AddGrade(double grade)
         {
